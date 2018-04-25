@@ -29,7 +29,7 @@ PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites']
 
 DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
-
+ADDTHIS_PROFILE = '5ae00816a4f2ac96'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
