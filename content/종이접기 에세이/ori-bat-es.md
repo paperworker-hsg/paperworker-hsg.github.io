@@ -2,7 +2,7 @@ Title: 박쥐의 생존법
 Date: 2018-04-25 12:00
 Modified: 2018-04-25 12:00
 Category: 종이접기 에세이
-Tags: Origami, Animal, SocialWork
+Tags: 종이접기, 동물, 사회사업
 Slug: ori-bat-es
 Authors: Paperworker
 Summary: 박쥐를 통해서 생각해본 사회사업가의 관점
