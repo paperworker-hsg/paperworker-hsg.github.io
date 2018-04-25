@@ -29,11 +29,6 @@ USE_FOLDER_AS_CATEGORY = True
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites', 'tipue_search', 'tag_cloud']
 
-DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
-ADDTHIS_PROFILE = '5ae00816a4f2ac96'
-
-GOOGLE_ANALYTICS  = 'UA-118141738-1'
-
 # Feed generation is usually not desired when developing
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -61,6 +56,6 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#bootstrap3 seetings
+# Bootstrap3 seetings
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_TEMPLATES_LANG ='ko'
