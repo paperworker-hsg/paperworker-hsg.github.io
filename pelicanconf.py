@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = '종이접는 사회사업가'
 SITENAME = '종이접는 사회사업가'
-SITEURL = 'https://paperworker-hsg.github.io/'
+SITEURL = 'https://paperworker-hsg.github.io'
 
 PATH = 'content'
 
