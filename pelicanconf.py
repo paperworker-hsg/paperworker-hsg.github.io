@@ -20,13 +20,14 @@ CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['images', 'extra/custom.css']
 EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
 
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 ARTICLE_URL = '{category}/{slug}'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 USE_FOLDER_AS_CATEGORY = True
 
 PLUGIN_PATHS = ['plugins/']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'tipue_search']
 
 DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
 ADDTHIS_PROFILE = '5ae00816a4f2ac96'
