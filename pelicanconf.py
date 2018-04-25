@@ -8,6 +8,9 @@ SITEURL = 'https://paperworker-hsg.github.io/'
 
 PATH = 'content'
 
+ABOUT_ME = 'PaperWorker =<br>Paper + Social Work'
+AVATAR = 'images/pwAvatar.png'
+
 TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'ko'
 DEFAULT_DATE_FORMAT = '%Y년 %m월 %d일 %A'
@@ -35,7 +38,7 @@ AUTHOR_FEED_ATOM = 'feeds/%s.atom.xml'
 AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 
 # Blogroll
-LINKS = (('사회복지 정보원', 'http://www.welfare.or.kr'),
+LINKS = (('사회복지 정보원', 'http://cafe.daum.net/cswcamp'),
          ('사회복지사 사무소 구슬', 'http://cafe.daum.net/coolwelfare'),
          )
 
