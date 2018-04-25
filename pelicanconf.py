@@ -8,7 +8,7 @@ SITEURL = 'https://paperworker-hsg.github.io'
 
 PATH = 'content'
 
-ABOUT_ME = 'PaperWorker =<br>Paper + Social Work'
+ABOUT_ME = 'PaperWorker<br>= Paper + Social Work'
 AVATAR = 'images/pwAvatar.PNG'
 
 TIMEZONE = 'Asia/Seoul'
@@ -30,7 +30,11 @@ PLUGINS = ['i18n_subsites']
 
 DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
 ADDTHIS_PROFILE = '5ae00816a4f2ac96'
+
+GOOGLE_ANALYTICS  = 'UA-118141738-1'
+
 # Feed generation is usually not desired when developing
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
