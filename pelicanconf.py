@@ -9,10 +9,15 @@ SITEURL = '.'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Seoul'
-
 DEFAULT_LANG = 'ko'
+DEFAULT_DATE_FORMAT = '%Y년 %m월 %d일 %A'
 
 THEME = 'theme/pelican-bootstrap3'
+
+CUSTOM_CSS = 'static/custom.css'
+STATIC_PATHS = ['images', 'extra/custom.css']
+EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
+
 
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites']
