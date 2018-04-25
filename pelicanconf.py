@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = '종이접는 사회사업가'
 SITENAME = '종이접는 사회사업가'
-SITEURL = '.'
+SITEURL = 'https://paperworker-hsg.github.io/'
 
 PATH = 'content'
 
@@ -13,14 +13,19 @@ DEFAULT_LANG = 'ko'
 DEFAULT_DATE_FORMAT = '%Y년 %m월 %d일 %A'
 
 THEME = 'theme/pelican-bootstrap3'
-
 CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['images', 'extra/custom.css']
 EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
 
+ARTICLE_URL = '{category}/{slug}'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+
+USE_FOLDER_AS_CATEGORY = True
 
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites']
+
+DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
