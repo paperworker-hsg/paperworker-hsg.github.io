@@ -9,7 +9,7 @@ SITEURL = 'https://paperworker-hsg.github.io'
 PATH = 'content'
 
 ABOUT_ME = 'PaperWorker =<br>Paper + Social Work'
-AVATAR = 'images/pwAvatar.png'
+AVATAR = 'images/pwAvatar.PNG'
 
 TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'ko'
