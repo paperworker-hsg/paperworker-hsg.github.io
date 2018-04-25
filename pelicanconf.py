@@ -27,7 +27,7 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 USE_FOLDER_AS_CATEGORY = True
 
 PLUGIN_PATHS = ['plugins/']
-PLUGINS = ['i18n_subsites', 'tipue_search']
+PLUGINS = ['i18n_subsites', 'tipue_search', 'tag_cloud']
 
 DISQUS_SITENAME = 'https-paperworker-hsg-github-io'
 ADDTHIS_PROFILE = '5ae00816a4f2ac96'
@@ -41,6 +41,10 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = 'feeds/%s.atom.xml'
 AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
+
+# Sidebar
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+DISPLAY_TAGS_ON_SIDEBAR = True
 
 # Blogroll
 LINKS = (('사회복지 정보원', 'http://cafe.daum.net/cswcamp'),
