@@ -25,14 +25,14 @@ AUTHOR_FEED_ATOM = 'feeds/%s.atom.xml'
 AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('사회복지 정보원', 'http://www.welfare.or.kr'),
+         ('사회복지사 사무소 구슬', 'http://cafe.daum.net/coolwelfare'),
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/paperworker.hsg'),
+          ('Instagram', 'https://www.instagram.com/paperworker.hsg/')
+          ,)
 
 DEFAULT_PAGINATION = 10
 
