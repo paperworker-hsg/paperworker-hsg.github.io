@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
 AUTHOR = '종이접는 사회사업가'
 SITENAME = '종이접는 사회사업가'
@@ -8,12 +7,16 @@ SITEURL = 'https://paperworker-hsg.github.io'
 
 PATH = 'content'
 
-ABOUT_ME = 'PaperWorker<br>= Paper + Social Work'
+ABOUT_ME = 'PaperWorker<br> Paper + Social Work'
 AVATAR = 'images/pwAvatar.PNG'
 
 TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'ko'
 DEFAULT_DATE_FORMAT = '%Y년 %m월 %d일 %A'
+DEFAULT_METADATA = {
+            'Status': 'draft'
+}
+
 
 THEME = 'theme/pelican-bootstrap3'
 CUSTOM_CSS = 'static/custom.css'
