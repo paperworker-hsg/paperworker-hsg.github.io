@@ -3,11 +3,11 @@
 
 AUTHOR = '종이접는 사회사업가'
 SITENAME = '종이접는 사회사업가'
-SITEURL = 'https://paperworker-hsg.github.io'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
-ABOUT_ME = 'PaperWorker<br> Paper + Social Work'
+ABOUT_ME = 'PaperWorker<br> = Paper + Social Worker'
 AVATAR = 'images/pwAvatar.PNG'
 
 TIMEZONE = 'Asia/Seoul'
@@ -17,7 +17,7 @@ DEFAULT_METADATA = {
             'Status': 'draft'
 }
 
-
+# Theme settings
 THEME = 'theme/pelican-bootstrap3'
 CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['images', 'extra/custom.css']
@@ -29,6 +29,16 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 USE_FOLDER_AS_CATEGORY = True
 
+# menu item
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (
+        ('소개', '/pages/about.html' ),
+        ('종이접기 에세이', '/category/jongijeobgi-esei.html'),
+        ('사회사업 동료들', '/pages/socialwork-companions.html')
+)
+
+# Plugin settings
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites', 'tipue_search', 'tag_cloud']
 
@@ -59,6 +69,6 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Bootstrap3 seetings
+# Bootstrap3 settings
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_TEMPLATES_LANG ='ko'
