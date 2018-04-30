@@ -11,6 +11,12 @@
                 {% endif %}
                 <div class="summary">{{ article.summary }}
                     {% include 'includes/comment_count.html' %}
+                <div class="entry-content">
+                    <div class="panel">
+                        <div class="panel-body">
+                            {% include "includes/article_info.html" %}
+                        </div>
+                    </div>
                     <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">{{ _('more') }} ...</a>
                 </div>
             </article>
