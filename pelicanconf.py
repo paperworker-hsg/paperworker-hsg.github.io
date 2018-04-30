@@ -35,7 +35,8 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
         ('소개', '/pages/about.html' ),
         ('종이접기 에세이', '/category/jongijeobgi-esei.html'),
-        ('사회사업 동료들', '/pages/socialwork-companions.html')
+        ('밑줄', '/category/mitjul.html'),
+        ('사회사업 동료들', '/pages/socialwork-companions.html'),
 )
 
 # Plugin settings
