@@ -7,6 +7,11 @@ body {
 }
 
 
-p{
+p {
   font-size: 120%;
+}
+
+blockquote {
+  font-size: 90%;
+  margin: 20px;
 }
