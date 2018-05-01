@@ -2,21 +2,21 @@
 
 body {
   font-family:'Nanum+Gothic';
-  line-height: 200%;
-  letter-spacing: 1px;
+  line-height: 3.2rem;
+  letter-spacing: 0.05rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  margin-top:50px;
-  margin-bottom: 20px;
+  margin-top: 4rem;
+  margin-bottom: 2.2rem;
 }
 
 p {
-  font-size: 120%;
-  margin: 10px;
+  font-size: 1.8rem;
+  margin: 1rem;
 }
 
 blockquote {
-  font-size: 90%;
-  margin: 20px;
+  font-size: 1.2rem;
+  margin: 2rem;
 }
