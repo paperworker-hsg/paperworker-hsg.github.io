@@ -34,7 +34,8 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
         ('소개', '/pages/about.html' ),
-        ('종이접기 에세이', '/category/jongijeobgi-esei.html'),
+        ('에세이', '/category/esei.html'),
+        ('정신건강', '/category/jeongsingeongang.html'),
         ('밑줄', '/category/mitjul.html'),
         ('사회사업 동료들', '/pages/socialwork-companions.html'),
 )
