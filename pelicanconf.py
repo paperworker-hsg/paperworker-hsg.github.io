@@ -37,6 +37,7 @@ MENUITEMS = (
         ('에세이', '/category/esei.html'),
         ('정신건강', '/category/jeongsingeongang.html'),
         ('밑줄', '/category/mitjul.html'),
+        ('코딩 공부', '/category/coding_study.html'),
         ('사회사업 동료들', '/pages/socialwork-companions.html'),
 )
 
