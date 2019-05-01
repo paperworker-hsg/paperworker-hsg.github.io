@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>종이접는 사회사업가 - 기록</title><link href="https://paperworker-hsg.github.io/" rel="alternate"></link><link href="https://paperworker-hsg.github.io/feeds/girog.atom.xml" rel="self"></link><id>https://paperworker-hsg.github.io/</id><updated>2019-05-01T22:00:00+09:00</updated><entry><title>2019-05-01 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-01" rel="alternate"></link><published>2019-05-01T20:00:00+09:00</published><updated>2019-05-01T22:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-01:/girog/2019-05-01</id><summary type="html">&lt;p&gt;회계 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
 &lt;h2&gt;경상예산&lt;/h2&gt;
 &lt;p&gt;규칙적이고 일정하여 예측할 수 있는 세입과 세출을 계상한 예산.&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr/&gt;
 &lt;h2&gt;2019년 4대보험 요율&lt;/h2&gt;
-&lt;table&gt;
+&lt;table class="table table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align="center"&gt;구분&lt;/th&gt;
