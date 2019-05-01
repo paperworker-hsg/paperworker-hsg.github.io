@@ -7,10 +7,10 @@
 &lt;table class="table-striped table"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align="center"&gt;구분&lt;/th&gt;
-&lt;th align="center"&gt;근로자 부담&lt;/th&gt;
-&lt;th align="center"&gt;사업주 부담&lt;/th&gt;
-&lt;th align="center"&gt;합계&lt;/th&gt;
+&lt;th align="center"&gt;&lt;center&gt;구분&lt;/center&gt;&lt;/th&gt;
+&lt;th align="center"&gt;&lt;center&gt;근로자 부담&lt;/center&gt;&lt;/th&gt;
+&lt;th align="center"&gt;&lt;center&gt;사업주 부담&lt;/center&gt;&lt;/th&gt;
+&lt;th align="center"&gt;&lt;center&gt;합계&lt;/center&gt;&lt;/th&gt;
 &lt;th align="center"&gt;&lt;center&gt;비고&lt;/center&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
