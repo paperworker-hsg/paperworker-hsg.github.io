@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>종이접는 사회사업가</title><link href="https://paperworker-hsg.github.io/" rel="alternate"></link><link href="https://paperworker-hsg.github.io/feeds/all.atom.xml" rel="self"></link><id>https://paperworker-hsg.github.io/</id><updated>2019-05-01T22:00:00+09:00</updated><entry><title>2019-05-01 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-01" rel="alternate"></link><published>2019-05-01T20:00:00+09:00</published><updated>2019-05-01T22:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-01:/girog/2019-05-01</id><summary type="html">&lt;p&gt;회계 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>종이접는 사회사업가</title><link href="https://paperworker-hsg.github.io/" rel="alternate"></link><link href="https://paperworker-hsg.github.io/feeds/all.atom.xml" rel="self"></link><id>https://paperworker-hsg.github.io/</id><updated>2019-05-02T18:00:00+09:00</updated><entry><title>2019-05-02 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-02" rel="alternate"></link><published>2019-05-02T18:00:00+09:00</published><updated>2019-05-02T18:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-02:/girog/2019-05-02</id><summary type="html">&lt;p&gt;회계 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
+&lt;h2&gt;4대 보험 부담금 산정을 위한 용어&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;보수총액: 과세 소득의 총액(=소득 중 비과세 소득을 뺀 모든 금액)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;보수월액(월평균보수액, 소득월액): 보수총액 / 근무월수 -&amp;gt; 건강보험, 장기요양보험, 고용보험, 산재보험 부담금 산정시 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;소득월액: 지급이 약정된 각 급여 항목에 대한 1년간 소득총액 / 365 * 30 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;기준소득월액: 전년도 중 해당 사업장에서 종사한 기간에 받은 소득액을 그 기간의 총근무일수로 나눈 금액의 30배에 해당하는 금액(천원 미만 절사)을 소득월액으로 결정
+-&amp;gt; 국민연금보험 부담금 산정시 사용&lt;/li&gt;
+&lt;/ul&gt;</content><category term="회계"></category><category term="공부"></category><category term="4대보험"></category></entry><entry><title>2019-05-01 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-01" rel="alternate"></link><published>2019-05-01T20:00:00+09:00</published><updated>2019-05-01T22:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-01:/girog/2019-05-01</id><summary type="html">&lt;p&gt;회계 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
 &lt;h2&gt;경상예산&lt;/h2&gt;
 &lt;p&gt;규칙적이고 일정하여 예측할 수 있는 세입과 세출을 계상한 예산.&lt;/p&gt;
 &lt;hr/&gt;
