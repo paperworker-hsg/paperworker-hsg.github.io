@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>종이접는 사회사업가 - 기록</title><link href="https://paperworker-hsg.github.io/" rel="alternate"></link><link href="https://paperworker-hsg.github.io/feeds/girog.atom.xml" rel="self"></link><id>https://paperworker-hsg.github.io/</id><updated>2019-05-02T18:00:00+09:00</updated><entry><title>2019-05-02 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-02" rel="alternate"></link><published>2019-05-02T18:00:00+09:00</published><updated>2019-05-02T18:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-02:/girog/2019-05-02</id><summary type="html">&lt;p&gt;보수총액, 보수월액, 소득월액, 기준소득월액 등 용어 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>종이접는 사회사업가 - 기록</title><link href="https://paperworker-hsg.github.io/" rel="alternate"></link><link href="https://paperworker-hsg.github.io/feeds/girog.atom.xml" rel="self"></link><id>https://paperworker-hsg.github.io/</id><updated>2019-05-05T21:00:00+09:00</updated><entry><title>2019-05-05 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-05" rel="alternate"></link><published>2019-05-05T21:00:00+09:00</published><updated>2019-05-01T21:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-05:/girog/2019-05-05</id><summary type="html">&lt;p&gt;엑셀 동적 범위 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;엑셀 공부&lt;/h1&gt;
+&lt;h2&gt;동적범위&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;필요성: 항목이 추가될 때 마다 합계를 내는 등 계산이 필요할 경우 범위 참조를 명시적으로 작성해두면 범위를 일일이 다시 바꿔주어야 해서 불편함. 이를 위해서 자료의 변화에 따라 자동으로 범위가 변할 수 있도록 하는 방법이 필요함.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;엑셀의 '이름 관리자'의 참조 대상에 OFFSET() 함수와 COUNTA() 함수를 통해 작성하면 데이터 변화에 따라 수식들이 자동으로 범위를 잡아줌.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OFFSET(기준이 되는 지점, 행 이동할 값, 열 이동할 값, 행 범위, 열 범위)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COUNTA(범위)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EX) C1은 목록의 이름이며 C 한 줄에 있는 모든 목록을 동적범위로 잡는다고 가정&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-&amp;gt; OFFSET($C$1,0,0, COUNTA($C:$C)-1,1)
+
+- 목록 이름인 C1을 절대참조로 기준으로 잡는다.
+- C1에서 기준을 이동하지 않을 것이므로 0, 0
+- COUNTA($C:$C) C 한 줄을 절대참조하여 비어 있지 않은 셀의 개수를 행 범위로 잡아준다.
+- 목록 제목은 범위에 포함하지 말아야 하므로 -1
+- 한 줄만 범위로 지정할 것이므로 마지막 인자는 1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="회계"></category><category term="공부"></category><category term="엑셀"></category></entry><entry><title>2019-05-02 공부 기록</title><link href="https://paperworker-hsg.github.io/girog/2019-05-02" rel="alternate"></link><published>2019-05-02T18:00:00+09:00</published><updated>2019-05-02T18:00:00+09:00</updated><author><name>Paperworker</name></author><id>tag:paperworker-hsg.github.io,2019-05-02:/girog/2019-05-02</id><summary type="html">&lt;p&gt;보수총액, 보수월액, 소득월액, 기준소득월액 등 용어 공부&lt;/p&gt;</summary><content type="html">&lt;h1&gt;회계 공부&lt;/h1&gt;
 &lt;h2&gt;4대 보험 부담금 산정을 위한 용어&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -18,7 +44,7 @@
 &lt;p&gt;규칙적이고 일정하여 예측할 수 있는 세입과 세출을 계상한 예산.&lt;/p&gt;
 &lt;hr/&gt;
 &lt;h2&gt;2019년 4대보험 요율&lt;/h2&gt;
-&lt;table class="table-striped table"&gt;
+&lt;table class="table table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align="center"&gt;&lt;center&gt;구분&lt;/center&gt;&lt;/th&gt;
